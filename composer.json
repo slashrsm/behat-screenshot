@@ -1,0 +1,27 @@
+{
+  "name": "slashrsm/behat-screenshot",
+  "description": "Screenshot extension for behat",
+  "keywords": ["web", "testing", "browser"],
+  "homepage": "https://github.com/slashrsm/behat-screenshot",
+  "type": "library",
+  "license": "GPL-2.0+",
+
+  "authors": [
+    {
+      "name": "Janez Urevc",
+      "email": "janez@janezurevc.name",
+      "homepage": "http://janezurevc.name"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.4",
+    "behat/mink-extension": "~2.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "slashrsm\\screenshot\\": "src/"
+    }
+  }
+}
